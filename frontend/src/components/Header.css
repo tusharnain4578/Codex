@@ -1,0 +1,81 @@
+.navbar {
+  width: 100%;
+  min-height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.upper-div {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.user {
+  height: 40px;
+  width: 40px;
+  /* text-align: center; */
+  line-height: 24px;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 50%;
+  color: #343a40;
+  background-color: white;
+  transition: 0.1s ease;
+}
+
+.user:hover {
+  height: 36px;
+  width: 36px;
+  font-size: 22px;
+  color: #343a40;
+  line-height: 20px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+
+.logout:active {
+  background-color: white;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.logout:hover {
+  color: rgb(16, 73, 6);
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 2px 2px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width : 768px) {
+  .navbar-nav {
+    font-size: 16px;
+  }
+}
